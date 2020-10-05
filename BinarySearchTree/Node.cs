@@ -18,7 +18,5 @@ namespace BinarySearchTree
         {
             this.data = data;
         }
-
-        //member methods
     }
 }

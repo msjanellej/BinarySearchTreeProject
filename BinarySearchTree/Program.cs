@@ -16,11 +16,11 @@ namespace BinarySearchTree
             numbers.Add(23);
             numbers.Add(12);
             numbers.Add(54);
-            numbers.Add(7);
-            numbers.Add(14);
-            numbers.Add(16);
-            numbers.Add(77);
+            numbers.Search(54);
+            
+           
         }
+
         
     }
 }
