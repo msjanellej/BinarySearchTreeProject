@@ -13,8 +13,6 @@ namespace BinarySearchTree
         {
             root = null;
         }
-
-
         public void Add(int numberToBeInserted)
         {
             Node newNode = new Node(numberToBeInserted);
@@ -59,15 +57,11 @@ namespace BinarySearchTree
                     }
                 }
             }
-
         }
         public void Search(int numberToSearch)
         {
-            bool isFound = false;
-            Node currentNode = new Node(numberToSearch);
-
-            currentNode = root;
-            
+            Node currentNode = root;
+            bool isFound = false;   
             while (isFound == false)
             {
                 if (currentNode == null)
@@ -89,10 +83,8 @@ namespace BinarySearchTree
                 {
                     currentNode = currentNode.right;
                     isFound = false;
-                }
-              
+                } 
             }
-            
         }
     }
 }
