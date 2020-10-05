@@ -16,7 +16,8 @@ namespace BinarySearchTree
             numbers.Add(23);
             numbers.Add(12);
             numbers.Add(54);
-            numbers.Search(54);
+            numbers.Search(23);
+            Console.ReadLine();
             
            
         }
